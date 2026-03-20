@@ -1,66 +1,12 @@
-# AI-Based Smart Tourism Crowd Detection & Management System
+# React + Vite
 
-## Overview
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The AI-Based Smart Tourism Crowd Detection & Management System is designed to enhance tourist safety and experience by monitoring crowd density in real time and providing intelligent recommendations. It enables users to avoid overcrowded areas and choose safer alternatives.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Features
+## Expanding the ESLint configuration
 
-* Real-time crowd monitoring (simulated data)
-* Interactive map with live location markers
-* Alerts for overcrowded areas
-* Smart recommendations for safer locations
-* Location awareness
-* Emergency contact support
-
----
-
-## Tech Stack
-
-* React.js
-* JavaScript
-* HTML5 and CSS3
-* React-Leaflet
-* OpenStreetMap
-
----
-
-## How It Works
-
-1. The system simulates real-time crowd data for multiple locations
-2. Crowd density is analyzed and categorized (Low, Medium, High, Danger)
-3. Alerts are generated for high-density areas
-4. The map displays live crowd locations
-5. Users receive recommendations for safer locations
-
----
-
-## Current Status
-
-This is a prototype version using simulated data. It demonstrates the concept and functionality of real-time crowd monitoring and management.
-
----
-
-## Future Scope
-
-* Integration of AI-based crowd detection using computer vision
-* Use of real-time data from CCTV or drone feeds
-* Backend integration with databases for live data processing
-* Implementation of predictive analytics for crowd forecasting
-* Development of a mobile application
-
----
-
-## Author
-
-Developed by Team Apex
-
----
-
-## Project Purpose
-
-This project aims to provide a scalable and practical solution for improving safety in tourist locations through smart monitoring and decision support.
-
----
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
